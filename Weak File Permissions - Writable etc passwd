@@ -1,0 +1,9 @@
+/etc/passwd zawiera infomracje o kontach użytkowników.
+
+Generowanie nowego skrótu hasła z wybranym hasłem:
+openssl passwd newpasswordhere 
+
+Następnie edytuj plik /etc/passwd i umieść wygenerowany skrót hasła między pierwszym a drugim dwukropkiem w wierszu użytkownika root (zastępując "x")
+
+Potem po zapisaniu przełączamy się na użytkowika root, uzywając nowego hasła
+
