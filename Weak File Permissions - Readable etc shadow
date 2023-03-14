@@ -1,0 +1,7 @@
+/etc/shadow - plik ten zawiera skróty haseł użytkowników
+
+Każda linia pliku reprezentuje użytkownika. Skrót haseł użytkownika można znaleść między pierwszym a drugim dwukropkiem każdej lini
+
+Musimy zapisać ten hash do pliku .txt i następnie go złamać za pomocą komendy john --wordlist=/usr/share/wordlist/rockyou.txt ***.txt
+
+I następnie zmieniamy użytkownika su root i podajemy nasze złamane hasło 
