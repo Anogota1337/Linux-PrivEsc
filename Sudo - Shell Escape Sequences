@@ -1,0 +1,3 @@
+Wymień programy, które sudo pozwala uruchomiać użytkownikowi:
+sudo -l
+Następnie jeśli coś Ci się ukaże odwiedź GTFOBins i wyszkuj nazwę programu. Jeśli program jest wymeniony jako funckja sudo, możesz go użyć do podniesienia uprawnień
